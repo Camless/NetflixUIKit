@@ -12,6 +12,10 @@
 		073C887027AC5AB5004659D1 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C886F27AC5AB5004659D1 /* MainTabBarViewController.swift */; };
 		073C887527AC5AB8004659D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073C887427AC5AB8004659D1 /* Assets.xcassets */; };
 		073C887827AC5AB8004659D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073C887627AC5AB8004659D1 /* LaunchScreen.storyboard */; };
+		073C888127AC6F86004659D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C888027AC6F86004659D1 /* HomeViewController.swift */; };
+		073C888327AC6FA5004659D1 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C888227AC6FA5004659D1 /* UpcomingViewController.swift */; };
+		073C888527AC6FB9004659D1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C888427AC6FB9004659D1 /* SearchViewController.swift */; };
+		073C888727AC6FD5004659D1 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C888627AC6FD5004659D1 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		073C887427AC5AB8004659D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		073C887727AC5AB8004659D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		073C887927AC5AB8004659D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073C888027AC6F86004659D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		073C888227AC6FA5004659D1 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		073C888427AC6FB9004659D1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		073C888627AC6FD5004659D1 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		073C886A27AC5AB5004659D1 /* NetflixUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				073C887F27AC6F69004659D1 /* Controllers */,
 				073C886B27AC5AB5004659D1 /* AppDelegate.swift */,
 				073C886D27AC5AB5004659D1 /* SceneDelegate.swift */,
 				073C886F27AC5AB5004659D1 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				073C887927AC5AB8004659D1 /* Info.plist */,
 			);
 			path = NetflixUIKit;
+			sourceTree = "<group>";
+		};
+		073C887F27AC6F69004659D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				073C888027AC6F86004659D1 /* HomeViewController.swift */,
+				073C888227AC6FA5004659D1 /* UpcomingViewController.swift */,
+				073C888427AC6FB9004659D1 /* SearchViewController.swift */,
+				073C888627AC6FD5004659D1 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073C888527AC6FB9004659D1 /* SearchViewController.swift in Sources */,
 				073C887027AC5AB5004659D1 /* MainTabBarViewController.swift in Sources */,
+				073C888727AC6FD5004659D1 /* DownloadsViewController.swift in Sources */,
 				073C886C27AC5AB5004659D1 /* AppDelegate.swift in Sources */,
 				073C886E27AC5AB5004659D1 /* SceneDelegate.swift in Sources */,
+				073C888327AC6FA5004659D1 /* UpcomingViewController.swift in Sources */,
+				073C888127AC6F86004659D1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
